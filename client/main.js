@@ -26,7 +26,7 @@ let sendRequest = (url, method, body = null) => {
     .catch(err => console.log(err))
 }
 
-fetch('/about').then(res => console.log(res))
+// fetch('/about').then(res => console.log(res))
 
 
 firstName.onsubmit = (e) => {

@@ -9,11 +9,16 @@
   },
   "author": "Postoian Konstantin <hamelltonn@gmail.com>",
   "license": "ISC",
+  "type": "module",
   "dependencies": {
     "express": "^4.17.1",
     "mongoose": "^5.11.14"
   },
   "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/node": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
     "nodemon": "^2.0.7"
   }
 }
